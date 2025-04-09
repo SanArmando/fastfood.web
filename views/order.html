@@ -1,1 +1,19 @@
-<!-- Formulario con campos (nombre, dirección, pedido), se envía al backend vía fetch() -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedidos | FastFood Express</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h2>Tu Pedido</h2>
+  <div id="cart"></div>
+  <form id="orderForm">
+    <input type="text" name="name" placeholder="Tu Nombre" required>
+    <input type="text" name="address" placeholder="Dirección" required>
+    <button type="submit">Enviar Pedido</button>
+  </form>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff9f0;
+    padding: 20px;
+  }
+  header {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+  }
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .btn {
+    background: #ff9800;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
